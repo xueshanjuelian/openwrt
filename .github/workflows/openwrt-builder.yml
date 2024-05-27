@@ -10,8 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder
-
+name: HuiYui-D2
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -157,4 +156,4 @@ jobs:
         keep_latest: 3
         delete_tags: true
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
