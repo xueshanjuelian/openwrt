@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/LubanCat/LubanCatWrt
+  REPO_URL: https://github.com/kiddin9/OpenWrt_x86-r2s-r4s-r5s-N1
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
